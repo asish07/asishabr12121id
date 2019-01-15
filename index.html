@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: white;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: green;
+    text-shadow: 2px 2px 5px red;
+    background-image: url(1.jpg);
+    font-family: MV Boli;
+    text-transform: uppercase;
+}
+/* Header/Blog Title */
+.header1 {
+  padding: 30px;
+  text-align: center;
+    border-radius: 25px;
+    text-shadow: 0 0 3px #FF0000;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+  background: green;
+    font-family: MS PGothic;
+    font-style: italic;
+    
+    }
+    /* Header/Blog Title */
+.header2 {
+  padding: 10px;
+  text-align: center;
+  background: green;
+    
+    font-family: sans-serif;
+    }
+
+.header h1 {
+  font-size: 50px;
+}
+.header2 h3 {
+  font-size: 30px;
+}
+html {
+  scroll-behavior: smooth;
+    }
+#About {
+  height: 900px;
+    }
+#Our Chef {
+  height: 900px;
+    }
+#Specials {
+  height: 900px;
+    }
+#Entertainment {
+  height: 900px;
+    }
+#Contact {
+  height: 900px;
+    }
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+    position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+    text-shadow: 0 0 3px #FF0000;
+  text-align: center;
+    font-family: Comic Sans MS;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: green;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: white;
+  padding-left: 20px;
+}
+
+.fakeimg1 {
+  background-color: white;
+  width: 100%;
+  padding: 200px;
+  background-image: url(about3.jpg);
+    
+  border-image-width: 70%;
+}
+
+.fakeimg2 {
+  background-color: white;
+  width: 100%;
+  padding: 120px;
+  background-image: url(03.jpg);
+  border-image-width: 70%;
+}
+    
+.fakeimg3 {
+  background-color: white;
+  width: 100%;
+  padding: 120px;
+  background-image: url(04.jpg);
+  border-image-width: 70%;
+}
+    
+.fakeimg6 {
+  background-color: white;
+  width: 100%;
+  padding: 250px;
+  background-image: url(ENTER.jpg);
+  border-image-width: 70%;
+}
+    
+.fakeimg7 {
+  background-color: white;
+  width: 100%;
+  padding: 350px;
+  background-image: url(cheff.jpg);
+  border-image-width: 70%;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  font-family: cursive;
+}
+   .card1 {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  font-family: cursive;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: white;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Asish's Food Paradise</h1>
+</div>
+
+<div class="topnav">
+  <a href="#ABOUT">ABOUT</a>
+  <a href="#OUR CHEF">OUR CHEF</a>
+  <a href="#SPECIALS">SPECIALS</a>
+  <a href="#ENTERTAINMENT">ENTERTAINMENT</a>
+  <a href="#CONTACT">CONTACT</a>
+</div>
+
+<div class="row">
+  
+      <div class="main" id="ABOUT">
+    <div class="card1">
+    <div class="header1">
+        <h2>ABOUT</h2>
+    </div>
+      
+      <div class="fakeimg1" style="height:280px;" style="width:100px;"></div>
+        <h3> Started in 2015, Asish's Food Paradise has become one of the most wanted restaurants in Bangalore. With top chefs in town with creative ideas, this place has fetched a place in everyone's heart.<h3>
+      </div>
+            </div>
+        <div class="main" id="OUR CHEF">
+    <div class="card">
+    <div class="header1">
+        <h2>OUR CHEF</h2>
+        </div>
+        <div class="fakeimg7" style="height:200px;"></div>
+      <h3>Our Restaurant is equipped with the finest chefs from the town who are specialized in North Indian, Chinese, Arabic and Italian dishes. They also hold many years of experience </h3>
+    </div>
+  </div>
+ 
+    </div>
+  </div>
+    
+<style>
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+    font-family: cursive;
+}
+.column2 {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+    font-family: cursive;
+}
+.column3 {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+    background-image: url()
+}
+.column4 {
+  background-color: white;
+  width: 100%;
+  padding: 350px;
+  background-image: url(intro-bg.jpg);
+  border-image-width: 70%;
+}
+.column5 {
+background-color: white;
+    float: right;
+  width: 50%;
+  padding: 4px;
+  background-image: url(01.jpg);
+  border-image-width: 70%;
+}
+.column6 {
+background-color: white;
+  width: 33%;
+  padding: 120px;
+  background-image: url(01.jpg);
+  border-image-width: 70%;
+}
+
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }</style>
+<div class="header1">
+    <h2>SPECIALS</h2>
+</div>
+      <div class="main" id="SPECIALS">
+    
+<div class="card">    
+<div class="row">
+<div class="column4">
+    </div>
+  <div class="column">
+    <h2>Caprese Salad</h2>
+    <p>This dish is a simple Italian salad, made of sliced fresh mozzarella, tomatoes, and sweet basil, seasoned with salt and olive oil. It is usually arranged on a plate in restaurant practice.</p>
+  </div>
+  
+  <div class="column2">
+    <h2>AquaCotta</h2>
+    <p>It is an Italian soup that was originally a peasant food. Historically, its primary ingredients were water, stale bread, onion, tomato and olive oil, along with various vegetables and leftover foods that may have been available.</p>
+  </div>
+  
+  <div class="column3">
+    <h2>Ginestrata</h2>
+    <p>Ginestrata is a soup in Italian cuisine that originated in Tuscany, Northern Italy that can be described as a thin, lightly spiced egg-based soup.[1][2][3] Egg yolks, chicken stock, Marsala wine or white wine, butter, nutmeg and sugar are primary ingredients.</p>
+  </div>
+</div>
+    </div>
+    </div>
+    <div class="card1">
+<div class="row">
+ 
+          <div class="main" id="ENTERTAINMENT">
+
+    <div class="header1">
+        <h2>ENTERTAINMENT</h2>
+    </div>
+      
+      <div class="fakeimg6" style="height:200px;"></div>
+      <h3>We host many live shows to make every person eating our food enthusiastic.There are many live and popular bands who come to our paradise and make the crowd cheerful.</h3>
+        </div>
+        </div>
+      
+    
+      <div class="main" id="CONTACT">
+
+<div class="footer">
+    <div class="header1">
+  <h2>CONTACT</h2>
+    
+</div>
+    <h2>(080)76758976</h2>
+    <h2>177,Narayanapura,Bangalore-560043</h2>
+    </div>
+        </div>
+    
+    
+    
+
+</body>
+</html>
